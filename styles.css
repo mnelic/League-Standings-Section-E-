@@ -1,0 +1,87 @@
+.team-logo {
+    width: 30px;  /* Adjust size as needed */
+    height: 30px; /* Ensure height matches width */
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Ensures the image fits well */
+    margin-right: 10px; /* Spacing between logo and team name */
+    vertical-align: middle; /* Aligns logo with text */
+}
+
+
+.team-row {
+    position: relative; /* Enables absolute positioning for the side border */
+}
+
+.color-indicator {
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.blue-line .color-indicator {
+    background-color: blue;
+}
+
+.orange-line .color-indicator {
+    background-color: orange;
+}
+
+.red-line .color-indicator {
+    background-color: red;
+}
+
+.yellow-line .color-indicator {
+    background-color: yellow;
+}
+
+/* Style for the icon next to the team name */
+.team-row i.fas {
+    color: #FFD700; /* Gold color for the star icon */
+    font-size: 20px; /* Adjust icon size */
+    margin-right: 10px; /* Add some space between the icon and the team name */
+  }
+  
+  /* Style the color indicators */
+  .color-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  /* Color Classes for Positioning */
+  .fas.blue-star {
+    color: blue;
+  }
+
+  .fas.orange-star {
+    color: orange;
+  }
+  .fas.yellow-star {
+    color: #FFD700;
+  }
+  
+  .fas.red-star {
+    color: red;
+  }
+  
+  /* Optionally, you can style empty stars too */
+  .far.fa-star {
+    color: grey;
+  }
+  
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  footer p {
+    margin: 0;
+  }
